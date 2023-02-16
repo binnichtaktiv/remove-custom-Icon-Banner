@@ -4,7 +4,7 @@ Script that automatically removes the 'ShortcutIdentifier' string in every folde
 
 to run this script you have to install python
 
-then cd into the folder where the .py file is and enter 'python3 rmvbanner.py'
+then `cd` into the folder where the .py file is and enter `python3 rmvbanner.py`
 
 put all the folders that contain the info.plist, the .png and the other files are into another folder. Then copy the path paste it into your terminal window and hit enter.
 
