@@ -33,6 +33,7 @@ for subfolder in subfolder_list:
             print(f"Successfully removed ShortcutIdentifier from {os.path.basename(plist_file)}")
         else:
             print(f"{os.path.basename(plist_file)} does not contain ShortcutIdentifier.")
+            os.system("rm -rf '{}'".format(subfolder))
 
     i += 1
 
