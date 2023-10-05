@@ -3,7 +3,7 @@ import glob
 import os
 
 # enter folder path
-parent_folder = input("Enter path to parent folder: \n\n")
+parent_folder = input("Enter the path to the folder that contains all the .webclip folders: \n\n")
 
 try:
     subfolder_list = [f.path for f in os.scandir(parent_folder) if f.is_dir()]
